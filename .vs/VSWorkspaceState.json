@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\classes",
+    "\\src\\app\\services",
+    "\\src\\app\\tela-login"
+  ],
+  "SelectedNode": "\\src\\app\\classes\\login.ts",
+  "PreviewInSolutionExplorer": false
+}

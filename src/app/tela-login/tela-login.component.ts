@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ServicesService } from '../services/services.service';
 @Component({
   selector: 'app-tela-login',
   templateUrl: './tela-login.component.html',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TelaLoginComponent implements OnInit {
 
-  constructor() { }
+  public loginT: string;
+
+  constructor(private servico: ServicesService) {
+    this.loginT = '';
+  }
 
   ngOnInit() {
   }
-
+  private addLogin(): void {
+    this.servico.addLogin(this.loginT); 
+    this.loginT = 'Login';
+  }
 }
