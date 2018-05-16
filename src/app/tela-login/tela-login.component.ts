@@ -15,7 +15,7 @@ export class TelaLoginComponent implements OnInit {
 
   ngOnInit() {
   }
-  private addLogin(): void {
+  public addLogin(): void {
     this.servico.addLogin(this.loginT); 
     this.loginT = 'Login';
   }
