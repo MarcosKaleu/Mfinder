@@ -9,6 +9,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { TelaMarceloComponent } from './tela-marcelo/tela-marcelo.component';
 import { TelaLoginComponent } from './tela-login/tela-login.component';
 import { ServicesService } from './services/services.service';
+import { Marcelo2Component } from './marcelo2/marcelo2.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ServicesService } from './services/services.service';
     AppComponent,
     NovaTelaComponent,
     TelaMarceloComponent,
-    TelaLoginComponent
+    TelaLoginComponent,
+    Marcelo2Component
   ],
   imports: [
     BrowserModule,

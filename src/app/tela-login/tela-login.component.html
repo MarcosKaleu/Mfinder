@@ -225,11 +225,13 @@
   <br>
   
   <!-- Container (Services Section) -->
+  <div class ="col6">
   <div id="Login">
   <div id="services" class="container-fluid">
-    <h2 class="text-right">Criar Conta</h2>
-    <h4 class="text-left">Login</h4>
-    <div class="input-group text-right">
+   
+   
+    <div class="input-group text-right" align="right">
+	<h2 class="text-right">Criar Conta Pessoa Física</h2>
       <input type="text"size="25" placeholder="Email" required>
     <br>
     <br>
@@ -237,92 +239,39 @@
     <br>
     <br>
         <input type="text" size="25" placeholder="Repetir Senha" required>
-      <div class="input-group-btn">
-            <button type="button" class="btn"(click)="addLogin()">Criar Conta</button>
+		<br>
+		<br>
+		<br>
+		<button type="button" class="btn btn-danger btn-lg"(click)="addLogin()" data-toggle="modal" data-target="#exampleModal">Criar Conta</button>
+	
+       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">Cadastro Efetuado Com Sucesso</h1>
+		<
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <br><br>
+        <h4>Cadastro Feito</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Close</button>
+        
       </div>
     </div>
   </div>
-  
-  <!-- Container (Pricing Section) -->
-  <div id="services" class="container-fluid">
-    
-    <div class="row slideanim">
-      <div class="col-sm-4 col-xs-12">
-        <div class="panel panel-default text-center">
-          <div class="panel-heading">
-            <h1>Higiene Pessoal</h1>
-          </div>
-          <div class="panel-body">
-            <img src="assets/img/desorante.jpg" class="img-rounded" alt="Desodorante" width="150" height="150"> 
-          </div>
-          <div class="panel-footer">
-            <button class="btn btn-lg">Entrar</button>
-          </div>
-        </div>      
-      </div>     
-      <div class="col-sm-4 col-xs-12">
-        <div class="panel panel-default text-center">
-          <div class="panel-heading">
-            <h1>Alimentício</h1>
-          </div>
-          <div class="panel-body">
-         <img src="assets/img/arroz.jpg" class="img-rounded" alt="Arroz" width="150" height="150"> 
-          </div>
-          <div class="panel-footer">
-           <button class="btn btn-lg">Entrar</button>
-          </div>
-        </div>      
-      </div>       
-      <div class="col-sm-4 col-xs-12">
-        <div class="panel panel-default text-center">
-          <div class="panel-heading">
-            <h1>Limpeza</h1>
-          </div>
-          <div class="panel-body">
-             <img src="assets/img/veja.jpg" class="img-rounded" alt="Desodorante" width="150" height="150">
-          </div>
-          <div class="panel-footer">
-           <button class="btn btn-lg">Entrar</button>
-          </div>
-        </div>      
-      </div>    
+</div>
+            
+      
     </div>
   </div>
-  </div>
-  <!-- Container (Contact Section) -->
-  <div id="contact" class="container-fluid bg-grey">
-    <h2 class="text-center">CONTATO</h2>
-    <div class="row">
-      <div class="col-sm-5">
-        <p>Fale conosco, mensagens respondidas em até 24 Horas</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Brasília, Brasil</p>
-        <p><span class="glyphicon glyphicon-phone"></span> (61) 0000-0000</p>
-        <p><span class="glyphicon glyphicon-envelope"></span> cliente@marketfinder.com</p>
-      </div>
-      <div class="col-sm-7 slideanim">
-        <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="Nome" name="name" placeholder="Name" type="Nome" required>
-          </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="-Email" name="email" placeholder="Email" type="Email" required>
-          </div>
-        </div>
-        <textarea class="form-control" id="Comentario" name="comments" placeholder="Comentario" rows="5"></textarea><br>
-        <div class="row">
-          <div class="col-sm-12 form-group">
-            <button class="btn btn-default pull-right" type="submit">Enviar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+   </div>
+   </div>
   
+
+
   
-  
-  <footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-   
-  </footer>
