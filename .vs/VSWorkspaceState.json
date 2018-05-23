@@ -4,9 +4,11 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\classes",
+    "\\src\\app\\marcelo2",
+    "\\src\\app\\nova-tela",
     "\\src\\app\\services",
     "\\src\\app\\tela-login"
   ],
-  "SelectedNode": "\\src\\app\\classes\\login.ts",
+  "SelectedNode": "\\src\\app\\nova-tela\\nova-tela.component.html",
   "PreviewInSolutionExplorer": false
 }
