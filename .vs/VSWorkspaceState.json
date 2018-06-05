@@ -4,11 +4,11 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\classes",
-    "\\src\\app\\marcelo2",
-    "\\src\\app\\nova-tela",
     "\\src\\app\\services",
-    "\\src\\app\\tela-login"
+    "\\src\\app\\tela-carrinho",
+    "\\src\\assets",
+    "\\src\\assets\\img"
   ],
-  "SelectedNode": "\\src\\app\\nova-tela\\nova-tela.component.html",
+  "SelectedNode": "\\src\\app\\produtos.ts",
   "PreviewInSolutionExplorer": false
 }
