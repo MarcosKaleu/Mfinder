@@ -20,35 +20,9 @@
     <th>Distância</th>
     <th>Total</th>
   </tr>
-  <tr>
-    <td>Amaciante</td>
-    <td>$$$</td>
-    <td>Carrefour</td>
-    <td>KM</td>
-  </tr>
-  <tr>
-    <td>Feijão</td>
-    <td>$$$$$</td>
-    <td>Dia a Dia</td>
-    <td>KM</td>
-  </tr>
-  <tr>
-    <td>Maça</td>
-    <td>$$$$$</td>
-    <td>Extra</td>
-    <td>KM</td>
-  </tr>
-  <tr>
-    <td>Pera</td>
-    <td>$$$$$</td>
-    <td>Walmart</td>
-    <td>KM</td>
-  </tr>
-  <tr>
-    <td>Detergente</td>
-    <td>$$$$$</td>
-    <td>Pão de Açucar</td>
-    <td>KM</td>
+  <tr *ngFor='let p of lista'>
+    <td>{{p.preco}}</td>
+    <td>{{p.produto}}</td>
   </tr>
 </table>
 <div class="input-group-btn">

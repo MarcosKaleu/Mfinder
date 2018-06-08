@@ -1,10 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Login } from '../classes/login';
+import {MOCK} from '../mock-carrinho';
+import { Observable } from "rxjs/Observable";
+import { of } from "rxjs/observable/of";
+import { Produtos } from '../Produtos';
+
 
 @Injectable()
 export class ServicesService {
 
   private nextId: number;
+  lista: Produtos[];
 
   constructor() {
     let login = this.getLogin();
@@ -35,4 +41,14 @@ export class ServicesService {
   private setlocalS(login: Login[]): void {
     localStorage.setItem('login', JSON.stringify({ login: login }));
   }
+
+  getlista(): Observable<Produtos[]> {
+    if (localStorage.getItem("lista") === null) {
+      this.lista = MOCK;
+    } else {
+      this.lista = JSON.parse(localStorage.getItem("lista"));
+    }
+    return of(this.lista);
+}
+
 }

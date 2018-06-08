@@ -1,6 +1,6 @@
-import { Produtos } from './produtos';
+import { Produtos } from './Produtos';
 
-export const produtos: Produtos[] = [
+export const MOCK: Produtos[] = [
   { preco: 11, produto: 'Amaciante' },
   { preco: 12, produto: 'Sabao em po' },
   { preco: 13, produto: 'Couve' },
