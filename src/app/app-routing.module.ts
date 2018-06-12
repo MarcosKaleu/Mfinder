@@ -4,6 +4,7 @@ import { TelaMarceloComponent } from './tela-marcelo/tela-marcelo.component';
 import { NovaTelaComponent } from './nova-tela/nova-tela.component';
 import { TelaLoginComponent } from './tela-login/tela-login.component';
 import { Marcelo2Component } from './marcelo2/marcelo2.component';
+import { Marcelo3Component } from './marcelo3/marcelo3.component';
 import { TelaCarrinhoComponent } from './tela-carrinho/tela-carrinho.component';
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'nova-tela', component: NovaTelaComponent },
   { path: 'login', component: TelaLoginComponent },
   { path: 'marcelo2', component: Marcelo2Component },
-  { path: 'tela-carrinho', component: TelaCarrinhoComponent }
+  { path: 'tela-carrinho', component: TelaCarrinhoComponent },
+  { path: 'marcelo3', component: Marcelo3Component }
 ];
 
 @NgModule({

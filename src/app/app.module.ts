@@ -11,6 +11,7 @@ import { TelaLoginComponent } from './tela-login/tela-login.component';
 import { ServicesService } from './services/services.service';
 import { Marcelo2Component } from './marcelo2/marcelo2.component';
 import { TelaCarrinhoComponent } from './tela-carrinho/tela-carrinho.component';
+import { Marcelo3Component } from './marcelo3/marcelo3.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TelaCarrinhoComponent } from './tela-carrinho/tela-carrinho.component';
     TelaMarceloComponent,
     TelaLoginComponent,
     Marcelo2Component,
-    TelaCarrinhoComponent
+    TelaCarrinhoComponent,
+    Marcelo3Component
   ],
   imports: [
     BrowserModule,
