@@ -2,7 +2,6 @@
   "name": "mfinder",
   "version": "0.0.0",
   "license": "MIT",
-  	"node":"8.11.1",
   "scripts": {
     "ng": "ng",
     "start": "node app.js",
@@ -10,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --prod",
+  	"node":"8.11.1"
   },
   "private": true,
   "dependencies": {
