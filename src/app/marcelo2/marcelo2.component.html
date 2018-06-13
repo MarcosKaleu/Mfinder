@@ -279,22 +279,22 @@
       <h2 >Criar Conta Mercado</h2>
 	<br>
       <br>
-      <input type="text" size="25" placeholder="Email" required>
+      <input [(ngModel)]="email" type="text" size="25" placeholder="Email" id="email" required>
       <br>
       <br>
-      <input type="text" size="25" placeholder="Senha" required>
+      <input [(ngModel)]="senha" type="text" size="25" placeholder="Senha" id="senha"required>
       <br>
       <br>
-      <input type="text" size="25" placeholder="Repetir Senha" required>
+      <input  [(ngModel)]="repetirsenha" type="text" size="25" placeholder="Repetir Senha" id="repetirsenha"required>
       <br>
       <br>
-	 <input type="text" size="25" placeholder="CNPJ" required>
+	 <input  [(ngModel)]="cnpj" type="text" size="25" placeholder="CNPJ" id="cnpj" required>
       <br>
       <br>
-      <input type="text" size="25" placeholder="CEP" required>
+      <input  [(ngModel)]="cep" type="text" size="25" placeholder="CEP" id="cep"required>
       <br>
       <br>
-      <button type="button" class="btn btn-danger btn-lg" (click)="addLogin()" data-toggle="modal" data-target="#exampleModal">Criar Conta</button>
+      <button type="button" class="btn btn-danger btn-lg" (click)="SalvarDados" data-toggle="modal" data-target="#exampleModal">Criar Conta</button>
          
 	 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
