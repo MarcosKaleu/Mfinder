@@ -41,8 +41,9 @@ SalvarDados(){
 
 );
 
-	localStorage.setItem(chave,JSON.stringify(this.dados));
-	
+	localStorage.setItem("mercados", JSON.stringify(this.dados));
+	let mercado = localStorage.getItem("mercados")
+
 	this.email= null
 	this.senha = null
 	this.repetirsenha = null
