@@ -48,7 +48,7 @@ export class ServicesService {
     } else {
       this.lista = JSON.parse(localStorage.getItem("lista"));
     }
-    return of(this.lista);
+    return of(MOCK);
 }
 
 }

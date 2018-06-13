@@ -20,9 +20,12 @@
     <th>Distância</th>
     <th>Total</th>
   </tr>
-  <tr *ngFor='let p of lista'>
-    <td>{{p.preco}}</td>
+  <tr *ngFor="let p of prods">
     <td>{{p.produto}}</td>
+    <td>{{p.preco}}</td>
+    <td>{{p.local}}</td>
+    <td>{{p.distancia}}</td>
+    <td>{{p.total}}</td>
   </tr>
 </table>
 <div class="input-group-btn">

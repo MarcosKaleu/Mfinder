@@ -1,4 +1,7 @@
 export class Produtos {
-  preco: number;
+  preco: string;
   produto: string;
+  local: string
+  distancia: string
+  total: number
 }

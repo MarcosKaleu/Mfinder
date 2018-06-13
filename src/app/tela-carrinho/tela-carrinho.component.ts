@@ -10,15 +10,17 @@ import { Produtos } from '../Produtos';
 })
 export class TelaCarrinhoComponent implements OnInit {
   @Input() lista;
-  prods: Produtos[]=[];
-  constructor(private servico:ServicesService) { }
-
-  getlista(): void{
-    this.servico.getlista().subscribe(prods=>(this.prods=prods))
+  prods: Produtos[];
+  constructor(private servico: ServicesService) {
   }
 
   ngOnInit() {
-    this.getlista;
+    this.getlista();
+  }
+
+  getlista(): void{
+    this.servico.getlista().subscribe(prods => (this.prods = prods))
+
   }
 
 }
