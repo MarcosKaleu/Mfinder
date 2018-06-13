@@ -2,6 +2,7 @@
   "name": "mfinder",
   "version": "0.0.0",
   "license": "MIT",
+  	"node":"8.11.1",
   "scripts": {
     "ng": "ng",
     "start": "node app.js",
@@ -47,6 +48,5 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3",
-	"node":"8.11.1"
   }
 }
