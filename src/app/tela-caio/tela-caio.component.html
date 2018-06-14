@@ -1,0 +1,144 @@
+<div class="jumbotron text-center">
+    <h1>Market Finder</h1> 
+    <p>O melhor preço na sua compra</p> 
+    <form>
+      <div class="input-group">
+        <input type="Pesquise por produto" class="form-control" size="50" placeholder="Pesquise por produto" required>
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-danger">Pesquisar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <h3 align="center">COMPARADOR DE PREÇOS</h3> 
+  <table style="width:50%" align="center">
+    <thead>
+        <tr>
+          <th>Lista de produtos</th>
+          <th>Supermercados</th>
+		  <th>Preços</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Arroz Tio Jorge</td>
+          <td>Pão de Açucar - Guará 2</td>
+          <td>R$ 74,50</td>
+        </tr>
+        <tr>
+          <td>Feijão Kicaldo</td>
+          <td>Extra - 205 Norte</td>
+          <td>R$ 82,20</td>
+        </tr>
+        <tr>
+          <td>Água Sanitária Qboa</td>
+          <td>Carrefour Bairro - 314 Sul</td>
+          <td>R$ 79,40</td>
+        </tr>
+		<tr>
+          <td>Sabão líquido Minuano</td>
+		  <td>Walmart - Águas Claras</td>
+          <td>R$ 70,48</td>
+        </tr>
+		<tr>
+          <td>Budweiser Long Neck</td>
+		  <td>Sam's Club - Águas Claras</td>
+          <td>R$ 76,30</td>
+        </tr>
+		<tr>
+          <td>Guaraná Kuat 2L</td>
+        </tr>
+		<tr>
+          <td>Omo Multiação</td>
+        </tr>
+		<tr>
+          <td>Mateiga Piracanjuba</td> 
+        </tr>
+		<tr>
+          <td>Achocolatado em pó</td> 
+        </tr>
+		<tr>
+          <td>Maizena</td>
+        </tr>
+		</tbody>
+  </table> 
+   <div class="input-group-btn" align="center">
+          <button type="button" class="btn btn-danger">Imprimir lista</button>
+		  <p></p>
+		  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal">Exportar lista</button>
+        </div>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="modal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" >
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">EXPORTAR</h4>
+          </div>
+          <div class="modal-body" >
+            <table class="table" style="width:100%">
+				<tbody>
+					<tr>
+						<td><button type="button" class="btn btn-danger">Exportar como PDF</button></td>   
+					</tr>
+					<tr>
+						<td><button type="button" class="btn btn-danger">Exportar como XLS</button></td>   
+					</tr>
+					<tr>
+						<td><button type="button" class="btn btn-danger">Exportar como JPG</button></td>
+					</tr>
+				</tbody>
+			</table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+	
+	 <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTATO</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Fale conosco, mensagens respondidas em até 24 Horas</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Brasília, Brasil</p>
+        <p><span class="glyphicon glyphicon-phone"></span> (61) 0000-0000</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> cliente@marketfinder.com</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="Nome" name="name" placeholder="Name" type="Nome" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="-Email" name="email" placeholder="Email" type="Email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="Comentario" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+   
+  </footer>
+    
+  
+ 

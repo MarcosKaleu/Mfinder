@@ -14,18 +14,18 @@
 <table style="width:50%" align="top">
   <tr>
 
-    <th>Produto</th>
     <th>Preço</th>
+    <th>Produto</th>
     <th>Supermercado</th>
-    <th>Distância</th>
-    <th>Total</th>
+	<th>Distância</th>
+	<th>Total</th>
   </tr>
   <tr *ngFor="let p of prods">
-    <td>{{p.produto}}</td>
     <td>{{p.preco}}</td>
+    <td>{{p.produto}}</td>
     <td>{{p.local}}</td>
-    <td>{{p.distancia}}</td>
-    <td>{{p.total}}</td>
+	<td>{{p.distancia}}</td>
+	<td>{{p.total}}</td>
   </tr>
 </table>
 <div class="input-group-btn">
